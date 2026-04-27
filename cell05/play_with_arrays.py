@@ -6,4 +6,4 @@ for x in a:
         b.append(x + 2)
 
 print(a)
-print(b)
+print(set(b))
