@@ -1,8 +1,9 @@
-original_array = [2, 8, 9, 48, 8, 22, -12, 2]
-new_array = []
+a = [2, 8, 9, 48, 8, 22, -12, 2]
+b = []
 
-for num in original_array:
-    new_array.append(num + 2)
+for x in a:
+    if x > 5:
+        b.append(x + 2)
 
-print("Original array:", original_array)
-print("New array:", new_array)
+print(a)
+print(b)
